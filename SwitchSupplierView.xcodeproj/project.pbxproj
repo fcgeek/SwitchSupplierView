@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC54BA341E1648EB00355EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54BA331E1648EB00355EB5 /* AppDelegate.swift */; };
+		EC54BA361E1648EB00355EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54BA351E1648EB00355EB5 /* ViewController.swift */; };
+		EC54BA391E1648EB00355EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC54BA371E1648EB00355EB5 /* Main.storyboard */; };
+		EC54BA3B1E1648EB00355EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC54BA3A1E1648EB00355EB5 /* Assets.xcassets */; };
+		EC54BA3E1E1648EB00355EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC54BA3C1E1648EB00355EB5 /* LaunchScreen.storyboard */; };
+		EC54BA491E1648EB00355EB5 /* SwitchSupplierViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54BA481E1648EB00355EB5 /* SwitchSupplierViewTests.swift */; };
+		EC54BA541E1648EB00355EB5 /* SwitchSupplierViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54BA531E1648EB00355EB5 /* SwitchSupplierViewUITests.swift */; };
+		EC54BA621E16493A00355EB5 /* SwitchSupplierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54BA611E16493A00355EB5 /* SwitchSupplierView.swift */; };
+		EC54BA641E164A0E00355EB5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC54BA631E164A0E00355EB5 /* UIColor+Extension.swift */; };
+		EC905B981E164F500043E6CF /* EZSwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC905B971E164F500043E6CF /* EZSwiftExtensions.framework */; };
+		EC905B9B1E165D7A0043E6CF /* DispatchTimeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC905B9A1E165D7A0043E6CF /* DispatchTimeExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC54BA451E1648EB00355EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC54BA281E1648EB00355EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC54BA2F1E1648EB00355EB5;
+			remoteInfo = SwitchSupplierView;
+		};
+		EC54BA501E1648EB00355EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC54BA281E1648EB00355EB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC54BA2F1E1648EB00355EB5;
+			remoteInfo = SwitchSupplierView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC54BA301E1648EB00355EB5 /* SwitchSupplierView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchSupplierView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54BA331E1648EB00355EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC54BA351E1648EB00355EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC54BA381E1648EB00355EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC54BA3A1E1648EB00355EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC54BA3D1E1648EB00355EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC54BA3F1E1648EB00355EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC54BA441E1648EB00355EB5 /* SwitchSupplierViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchSupplierViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54BA481E1648EB00355EB5 /* SwitchSupplierViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchSupplierViewTests.swift; sourceTree = "<group>"; };
+		EC54BA4A1E1648EB00355EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC54BA4F1E1648EB00355EB5 /* SwitchSupplierViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchSupplierViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC54BA531E1648EB00355EB5 /* SwitchSupplierViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchSupplierViewUITests.swift; sourceTree = "<group>"; };
+		EC54BA551E1648EB00355EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC54BA611E16493A00355EB5 /* SwitchSupplierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchSupplierView.swift; sourceTree = "<group>"; };
+		EC54BA631E164A0E00355EB5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EC905B971E164F500043E6CF /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EZSwiftExtensions.framework; sourceTree = "<group>"; };
+		EC905B9A1E165D7A0043E6CF /* DispatchTimeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimeExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC54BA2D1E1648EB00355EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC905B981E164F500043E6CF /* EZSwiftExtensions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54BA411E1648EB00355EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54BA4C1E1648EB00355EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC54BA271E1648EB00355EB5 = {
+			isa = PBXGroup;
+			children = (
+				EC54BA321E1648EB00355EB5 /* SwitchSupplierView */,
+				EC54BA471E1648EB00355EB5 /* SwitchSupplierViewTests */,
+				EC54BA521E1648EB00355EB5 /* SwitchSupplierViewUITests */,
+				EC54BA311E1648EB00355EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC54BA311E1648EB00355EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC54BA301E1648EB00355EB5 /* SwitchSupplierView.app */,
+				EC54BA441E1648EB00355EB5 /* SwitchSupplierViewTests.xctest */,
+				EC54BA4F1E1648EB00355EB5 /* SwitchSupplierViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC54BA321E1648EB00355EB5 /* SwitchSupplierView */ = {
+			isa = PBXGroup;
+			children = (
+				EC905B9A1E165D7A0043E6CF /* DispatchTimeExtensions.swift */,
+				EC905B971E164F500043E6CF /* EZSwiftExtensions.framework */,
+				EC54BA631E164A0E00355EB5 /* UIColor+Extension.swift */,
+				EC54BA331E1648EB00355EB5 /* AppDelegate.swift */,
+				EC54BA351E1648EB00355EB5 /* ViewController.swift */,
+				EC54BA371E1648EB00355EB5 /* Main.storyboard */,
+				EC54BA3A1E1648EB00355EB5 /* Assets.xcassets */,
+				EC54BA3C1E1648EB00355EB5 /* LaunchScreen.storyboard */,
+				EC54BA3F1E1648EB00355EB5 /* Info.plist */,
+				EC54BA611E16493A00355EB5 /* SwitchSupplierView.swift */,
+			);
+			path = SwitchSupplierView;
+			sourceTree = "<group>";
+		};
+		EC54BA471E1648EB00355EB5 /* SwitchSupplierViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC54BA481E1648EB00355EB5 /* SwitchSupplierViewTests.swift */,
+				EC54BA4A1E1648EB00355EB5 /* Info.plist */,
+			);
+			path = SwitchSupplierViewTests;
+			sourceTree = "<group>";
+		};
+		EC54BA521E1648EB00355EB5 /* SwitchSupplierViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC54BA531E1648EB00355EB5 /* SwitchSupplierViewUITests.swift */,
+				EC54BA551E1648EB00355EB5 /* Info.plist */,
+			);
+			path = SwitchSupplierViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC54BA2F1E1648EB00355EB5 /* SwitchSupplierView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54BA581E1648EB00355EB5 /* Build configuration list for PBXNativeTarget "SwitchSupplierView" */;
+			buildPhases = (
+				EC54BA2C1E1648EB00355EB5 /* Sources */,
+				EC54BA2D1E1648EB00355EB5 /* Frameworks */,
+				EC54BA2E1E1648EB00355EB5 /* Resources */,
+				EC905B991E164F630043E6CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchSupplierView;
+			productName = SwitchSupplierView;
+			productReference = EC54BA301E1648EB00355EB5 /* SwitchSupplierView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC54BA431E1648EB00355EB5 /* SwitchSupplierViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54BA5B1E1648EB00355EB5 /* Build configuration list for PBXNativeTarget "SwitchSupplierViewTests" */;
+			buildPhases = (
+				EC54BA401E1648EB00355EB5 /* Sources */,
+				EC54BA411E1648EB00355EB5 /* Frameworks */,
+				EC54BA421E1648EB00355EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC54BA461E1648EB00355EB5 /* PBXTargetDependency */,
+			);
+			name = SwitchSupplierViewTests;
+			productName = SwitchSupplierViewTests;
+			productReference = EC54BA441E1648EB00355EB5 /* SwitchSupplierViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC54BA4E1E1648EB00355EB5 /* SwitchSupplierViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC54BA5E1E1648EB00355EB5 /* Build configuration list for PBXNativeTarget "SwitchSupplierViewUITests" */;
+			buildPhases = (
+				EC54BA4B1E1648EB00355EB5 /* Sources */,
+				EC54BA4C1E1648EB00355EB5 /* Frameworks */,
+				EC54BA4D1E1648EB00355EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC54BA511E1648EB00355EB5 /* PBXTargetDependency */,
+			);
+			name = SwitchSupplierViewUITests;
+			productName = SwitchSupplierViewUITests;
+			productReference = EC54BA4F1E1648EB00355EB5 /* SwitchSupplierViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC54BA281E1648EB00355EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xdream;
+				TargetAttributes = {
+					EC54BA2F1E1648EB00355EB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EC54BA431E1648EB00355EB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC54BA2F1E1648EB00355EB5;
+					};
+					EC54BA4E1E1648EB00355EB5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC54BA2F1E1648EB00355EB5;
+					};
+				};
+			};
+			buildConfigurationList = EC54BA2B1E1648EB00355EB5 /* Build configuration list for PBXProject "SwitchSupplierView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC54BA271E1648EB00355EB5;
+			productRefGroup = EC54BA311E1648EB00355EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC54BA2F1E1648EB00355EB5 /* SwitchSupplierView */,
+				EC54BA431E1648EB00355EB5 /* SwitchSupplierViewTests */,
+				EC54BA4E1E1648EB00355EB5 /* SwitchSupplierViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC54BA2E1E1648EB00355EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54BA3E1E1648EB00355EB5 /* LaunchScreen.storyboard in Resources */,
+				EC54BA3B1E1648EB00355EB5 /* Assets.xcassets in Resources */,
+				EC54BA391E1648EB00355EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54BA421E1648EB00355EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54BA4D1E1648EB00355EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC905B991E164F630043E6CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/SwitchSupplierView/EZSwiftExtensions.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC54BA2C1E1648EB00355EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC905B9B1E165D7A0043E6CF /* DispatchTimeExtensions.swift in Sources */,
+				EC54BA361E1648EB00355EB5 /* ViewController.swift in Sources */,
+				EC54BA621E16493A00355EB5 /* SwitchSupplierView.swift in Sources */,
+				EC54BA341E1648EB00355EB5 /* AppDelegate.swift in Sources */,
+				EC54BA641E164A0E00355EB5 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54BA401E1648EB00355EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54BA491E1648EB00355EB5 /* SwitchSupplierViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC54BA4B1E1648EB00355EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC54BA541E1648EB00355EB5 /* SwitchSupplierViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC54BA461E1648EB00355EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC54BA2F1E1648EB00355EB5 /* SwitchSupplierView */;
+			targetProxy = EC54BA451E1648EB00355EB5 /* PBXContainerItemProxy */;
+		};
+		EC54BA511E1648EB00355EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC54BA2F1E1648EB00355EB5 /* SwitchSupplierView */;
+			targetProxy = EC54BA501E1648EB00355EB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC54BA371E1648EB00355EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC54BA381E1648EB00355EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC54BA3C1E1648EB00355EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC54BA3D1E1648EB00355EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC54BA561E1648EB00355EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC54BA571E1648EB00355EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC54BA591E1648EB00355EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwitchSupplierView",
+				);
+				INFOPLIST_FILE = SwitchSupplierView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.SwitchSupplierView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC54BA5A1E1648EB00355EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwitchSupplierView",
+				);
+				INFOPLIST_FILE = SwitchSupplierView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.SwitchSupplierView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC54BA5C1E1648EB00355EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchSupplierViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.SwitchSupplierViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchSupplierView.app/SwitchSupplierView";
+			};
+			name = Debug;
+		};
+		EC54BA5D1E1648EB00355EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchSupplierViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.SwitchSupplierViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchSupplierView.app/SwitchSupplierView";
+			};
+			name = Release;
+		};
+		EC54BA5F1E1648EB00355EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwitchSupplierViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.SwitchSupplierViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwitchSupplierView;
+			};
+			name = Debug;
+		};
+		EC54BA601E1648EB00355EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwitchSupplierViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdream.SwitchSupplierViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwitchSupplierView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC54BA2B1E1648EB00355EB5 /* Build configuration list for PBXProject "SwitchSupplierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54BA561E1648EB00355EB5 /* Debug */,
+				EC54BA571E1648EB00355EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54BA581E1648EB00355EB5 /* Build configuration list for PBXNativeTarget "SwitchSupplierView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54BA591E1648EB00355EB5 /* Debug */,
+				EC54BA5A1E1648EB00355EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54BA5B1E1648EB00355EB5 /* Build configuration list for PBXNativeTarget "SwitchSupplierViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54BA5C1E1648EB00355EB5 /* Debug */,
+				EC54BA5D1E1648EB00355EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC54BA5E1E1648EB00355EB5 /* Build configuration list for PBXNativeTarget "SwitchSupplierViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54BA5F1E1648EB00355EB5 /* Debug */,
+				EC54BA601E1648EB00355EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC54BA281E1648EB00355EB5 /* Project object */;
+}
